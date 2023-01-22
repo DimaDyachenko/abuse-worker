@@ -1,0 +1,8 @@
+name = "abuse-worker"
+main = "src/index.ts"
+compatibility_date = "2023-01-21"
+usage_model = "bundled"
+account_id = "aebacfd9b78edd47c2d10c3f9300b38d"
+
+[triggers]
+crons = ["*/1 * * * *"]
