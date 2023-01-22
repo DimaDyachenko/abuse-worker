@@ -20,8 +20,8 @@ export default {
         host: "https://dev-crm.qp-internal.cloud/api/v1/health",
         id: "Dima",
       },
-
     ];
+
     await leaderElectionService(servicesUrls);
   },
 };
